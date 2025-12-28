@@ -8,8 +8,6 @@ Welcome to the Budget Buddy App, a real-world budget management application buil
 
 This app is designed to help users manage their finances effectively using the robustness of SQLite for data management. With its user-friendly interface and powerful backend, Budget Buddy makes budgeting simple and efficient.
 
-Watch the app in action on my YouTube channel: [Budget Buddy App Demo](https://youtu.be/dl74XgJYK1A)
-
 ## Features
 
 - User-friendly budget tracking
