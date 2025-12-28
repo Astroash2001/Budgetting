@@ -1,25 +1,53 @@
-# Budgetter
+# Avinash Budget Tracker
 
-## Introduction
+A modern **React Native** expense and budget tracking mobile application built using **Expo** and **SQLite**.
 
-Welcome to the Budget Buddy App, a real-world budget management application built with SQLite and Expo 50. This project demonstrates the power of developing local-first applications that manage complex data structures with instant performance for CRUD operations.
+This app allows users to track income and expenses, categorize transactions, and view spending insights — all stored locally on the device for fast, offline-first performance.
 
-### About the App
+---
 
-This app is designed to help users manage their finances effectively using the robustness of SQLite for data management. With its user-friendly interface and powerful backend, Budget Buddy makes budgeting simple and efficient.
+## 🚀 Features
 
-## Features
+- Add and delete income & expenses  
+- Categorize transactions  
+- Local data persistence using SQLite  
+- Real-time totals and summaries  
+- Smooth mobile UI built with React Native  
+- Works completely offline  
 
-- User-friendly budget tracking
-- Instant performance for CRUD operations
-- Local-first data management with SQLite
-- Built with TypeScript and Expo 50
+---
 
-## Technologies Used
+## 🛠 Tech Stack
 
+- **Frontend:** React Native (Expo)
 - **Language:** TypeScript
-- **Framework:** Expo 50
 - **Database:** SQLite
-- **Project Type:** Mobile
+- **State Management:** React Hooks
+- **Navigation:** React Navigation
 
+---
 
+## 📱 App Preview
+
+Run the project locally and scan with **Expo Go** to view the app on a real device.
+
+---
+
+## 🧑‍💻 Author
+
+**Avinash**  
+BTech Student | Web & Mobile Developer  
+
+This project was customized, branded, and enhanced by Avinash as a personal finance tracking application.
+
+---
+
+## 🧪 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/Astroash2001/Budgetting.git
+cd Budgetting
+npm install
+npx expo start
