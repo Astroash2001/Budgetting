@@ -39,7 +39,8 @@ export default function App() {
   //   return (
   //     <View style={{ flex: 1 }}>
   //       <ActivityIndicator size={"large"} />
-  //       <Text>Loading Database...</Text>
+  //       <Text>Preparing your financial dashboard…</Text>
+
   //     </View>
   //   );
   return (
@@ -64,7 +65,7 @@ export default function App() {
               name="Home"
               component={Home}
               options={{
-                headerTitle: "Budget Buddy",
+                headerTitle: "Budgetter",
                 headerLargeTitle: true,
                 headerTransparent: Platform.OS === "ios" ? true : false,
                 headerBlurEffect: "light",
@@ -78,6 +79,27 @@ export default function App() {
                 animation: "slide_from_bottom",
                 animationTypeForReplace: "pop",
                 headerShown: false,
+              }}
+            />
+
+            <Stack.Screen
+              name="Credits"
+              component={() => (
+                <View
+                  style={{
+                    flex: 1,
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <Text style={{ fontSize: 18, fontWeight: "bold" }}>
+                    Built by Avinash
+                  </Text>
+                  <Text>React Native · Expo · SQLite</Text>
+                </View>
+              )}
+              options={{
+                headerTitle: "About",
               }}
             />
           </Stack.Navigator>

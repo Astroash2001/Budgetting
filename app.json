@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BudgetBuddy",
-    "slug": "BudgetBuddy",
+    "name": "Budgetting",
+    "slug": "Budgetting",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
